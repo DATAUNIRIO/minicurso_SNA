@@ -1,0 +1,189 @@
+---
+title: "MINICURSO - INTRODUÇÃO À ANÁLISE DE REDES SOCIAIS COM A LINGUAGEM DE PROGRAMAÇÃO R"
+categories: ["R"]
+tags: ["R Markdown", "sna", "network"]
+output:
+  html_document:
+    theme:
+       bootswatch: journal
+       bg: "#fcdb77"
+       fg: "black"
+       primary: "#eb4034"
+       heading_font: 
+         google: Sen
+       base_font:
+         google: Sen
+       code_font:
+         google: JetBrains Mono
+summary: 'criar códigos para análise de redes sociais utilizando a linguagem de programação R.'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,message = FALSE, warning = FALSE,comment = NA)
+
+options(digits = 2)
+```
+
+```{css, echo=FALSE}
+  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  body {
+    font-family: 'Roboto';
+  }
+  h3::first-letter {
+    font-size: 200%;
+    line-height: 70px;
+    color: white;
+    background-color: red;
+  }
+  h1,h2,h4,h5,h6 {
+     font-family: 'Roboto', cursive;
+  }
+  h3,h4,h5,h6 {
+     font-family: 'Roboto', cursive;
+     color: white;
+     background-color: red;
+  }
+
+  
+
+```
+  
+
+
+
+
+```{r,out.width = "100%",fig.align='center'}
+knitr::include_graphics('logo.png')
+```
+
+
+## Carga Horária: 09 Horas
+
+## Coordenador:  João Roberto Lopes (Departamento de Estudos Políticos - ECOPOL/NELUTAS - UNIRIO)
+
+## Professor: Steven Dutt-Ross  (Departamento de Métodos Quantitativos - DATAUNIRIO)
+
+## Monitor (voluntário):  Daniel de Luna - Ciência Política - UNIRIO
+
+## Local: Laboratório 2 - CCET
+
+## Dias: 11,18 e 25 de outubro
+
+## Horário: 08:30 às 11:30
+
+
+# Plano de Ensino
+
+
+
+### DESCRIÇÃO DO MINICURSO
+
+
+Os métodos digitais trouxeram uma nova abordagem para os processos de pesquisa em Ciências Sociais. Nesse minicurso, apresentaremos um dos principais novos métodos: **Análise de Redes Sociais**. Assim, vamos analisar de forma prática as relações sociais por meio de modelos com estrutura de rede. Discutiremos as principais mensurações de centralidade, como também, a detecção das estruturas de grupos e de comunidades. Os(as) alunos(as) irão utilizar dados e informações reais e serão capazes de construir redes, a partir de registros brutos, além de avaliarem as características dessas interconexões para extrair insights úteis.      
+   
+   
+# Códigos 
+
+[https://raw.githubusercontent.com/DATAUNIRIO/minicurso_SNA/main/codigos/codigo_01.R](https://raw.githubusercontent.com/DATAUNIRIO/minicurso_SNA/main/codigos/codigo_01.R)
+
+[https://raw.githubusercontent.com/DATAUNIRIO/minicurso_SNA/main/codigos/codigo_02.R](https://raw.githubusercontent.com/DATAUNIRIO/minicurso_SNA/main/codigos/codigo_02.R)
+
+[https://raw.githubusercontent.com/DATAUNIRIO/minicurso_SNA/main/codigos/codigo_03.R](https://raw.githubusercontent.com/DATAUNIRIO/minicurso_SNA/main/codigos/codigo_03.R)   
+   
+   
+# Base de dados 
+
+### Excel
+
+[https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/os_miseraveis.xlsx](https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/os_miseraveis.xlsx)
+
+
+[https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/star.xlsx](https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/star.xlsx)
+
+### RData
+
+[https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/os_miseraveis.Rdata](https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/os_miseraveis.Rdata)   
+   
+  
+[https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/star.Rdata](https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/star.Rdata)
+
+## OBJETIVO
+
+O objetivo central do curso é promover a capacidade de criar códigos para análise de redes sociais utilizando a linguagem de programação R.
+
+
+
+*** 
+
+## Programação
+
+**1. Termos e Conceitos - Dia 11/10/2022**
+
+1.  Tipo de dados   
+2.  Distância em redes   
+3.  Revisão de matriz (matriz quadrada)  
+4.  Matriz de ligações   
+5.  Gráficos de rede   
+6.  Medidas de centralidade    
+    6.1 closeness   
+    6.2 betweenness   
+    6.3 degree   
+    6.4 eigenvector   
+7.  Grupos e comunidades    
+8.  Hub e Autoridade    
+9.  Estudos de Casos      
+
+***
+
+**2. Aplicação no R - Dia 18/10/2022**  
+
+1.  Introdução/revisão de R  
+2.  Dados (data.frame, matrizes) no R   
+3.  Carregar dados no R   
+4.  Converter dados em rede com o R    
+5.  Construir gráficos de redes com o R   
+6.  Usar cores em gráficos de rede   
+7.  Usar tamanho em gráficos de Rede   
+
+*** 
+
+**3. Aplicação no R (parte 2) - Dia 25/10/2022**
+
+1.  Distância geodésica com o R   
+2.  Cálculo de Medidas de Centralidade   
+3.  Identificação de grupos/comunidades com o R    
+4.  O estado da arte    
+    4.1 desafios e principais problemas    
+    4.2 a ferramenta de redes (gephi network analysis)   
+
+
+
+
+
+### Bibliografia básica
+
+HANNEMAN,R.; RIDDLE,M. *Introduction to social network methods*, 2005. Disponível em <http://faculty.ucr.edu/~hanneman/nettext/Introduction_to_Social_Network_Methods.pdf>
+
+HIGGINS,S.S. E RIBEIRO,A.C.A. *Análise de redes em Ciências Sociais*. Higgins,S.S. e Ribeiro,A.C.A. – Brasília: Enap, 2018. Disponível em https://repositorio.enap.gov.br/bitstream/1/3337/1/Livro_Analise%20de%20Redes%20em%20Ci%C3%AAncias%20Sociais.pdf
+
+
+
+### Bibliografia complementar
+
+1. AQUINO, J. A. de *R para cientistas sociais* -- Ilhéus, BA: EDITUS, 2014. 157 p. Disponível em <http://www.uesc.br/editora/livrosdigitais_20140513/r_cientistas.pdf>
+
+2. BARBERA, P. *Introduction to social network analysis with R*, 2017. Disponível em <http://pablobarbera.com/big-data-upf/html/02a-networks-intro-visualization.html>
+
+3. KOLACZYK, E. D.; CSÁRDI, G. *Statistical analysis of network data with R*. New York, NY: Springer, 2014.
+
+4. SHIZUKA, DAI . *Intro to Network Analysis in R* Disponível em <https://dshizuka.github.io/networkanalysis/>
+
+5. WICKHAM, H. and GROLEMUND, G.*R for data science: import, tidy, transform, visualize, and model data.*" O'Reilly Media, Inc.", 2016.
+
+### Referência - Pacotes do R
+
+1. ALLAIRE,J; GANDRUD, C; RUSSELL, K; YETMAN, C *networkD3: D3 JavaScript Network Graphs from R*. 2017.
+
+2. CSARDI, G. and NEPUSZ, T. *The igraph software package for complex network research*, 2006. InterJournal, Complex Systems. <https://igraph.org/r/>
+
+3. R CORE TEAM *R: A language and environment for statistical computing.* R Foundation for Statistical Computing, Vienna, Austria. 2022. <https://www.R-project.org/>.
