@@ -107,6 +107,11 @@ Os métodos digitais trouxeram uma nova abordagem para os processos de pesquisa 
   
 [https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/star.Rdata](https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/star.Rdata)
 
+
+### Apresentação
+
+[https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/escopo/apresentacao.pdf](https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/escopo/apresentacao.pdf)
+
 ## OBJETIVO
 
 O objetivo central do curso é promover a capacidade de criar códigos para análise de redes sociais utilizando a linguagem de programação R.
