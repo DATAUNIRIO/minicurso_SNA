@@ -31,6 +31,8 @@ net[1,]
 
 plot(net)
 
+all_simple_paths(net, from = "Luiz", to = "Jair")
+
 
 distances(net, mode="all")
 
