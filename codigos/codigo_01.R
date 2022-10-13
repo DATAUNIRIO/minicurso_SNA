@@ -4,22 +4,17 @@
 #-------------------------------------------------
 
 library(igraph)
-library(readr)
 dev.off()
 
-nomes <- c("Ciro" , "Eymael" , "Felipe" , "Jair" , 
-           "Léo" , "Luiz" , "Kelmon" , "Simone" , 
-           "Sofia" , "Vera")  
+#nomes <- c("Ciro" , "Eymael" , "Felipe" , "Jair" , "Léo" , "Luiz" , "P.K." , "Simone" , "Sofia" , "Vera")  
+#dados <- data.frame(from = sample(nomes, 50, TRUE),to = sample(nomes, 50, TRUE),weight = runif(50))
+#dados$weight <-ifelse(dados$from==dados$to,999999999999999,dados$weight)
+#dados <- dados[dados$weight<1000,]
+# save(dados,file = '/home/steven/Documentos/GitHub/minicurso_SNA/dados/dados_sna.RData')
 
-dados <- data.frame(
-  from = sample(nomes, 50, TRUE),
-  to = sample(nomes, 50, TRUE),
-  weight = runif(50)
-)
+load('dados_sna.RData')
 
-class(nomes)
 class(dados)
-
 
 net <- graph.data.frame(dados, directed=T)
 class(net)
