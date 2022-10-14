@@ -95,13 +95,20 @@ Os métodos digitais trouxeram uma nova abordagem para os processos de pesquisa 
 
 ### Excel
 
+[https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/dados_sna.xlsx](https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/dados_sna.xlsx)
+   
+   
+  
 [https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/os_miseraveis.xlsx](https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/os_miseraveis.xlsx)
-
-
+  
+   
 [https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/star.xlsx](https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/star.xlsx)
 
 ### RData
 
+[https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/dados_sna.RData](https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/dados_sna.RData)  
+  
+   
 [https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/os_miseraveis.Rdata](https://github.com/DATAUNIRIO/minicurso_SNA/raw/main/dados/os_miseraveis.Rdata)   
    
   
