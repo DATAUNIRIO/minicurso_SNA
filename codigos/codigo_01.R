@@ -3,14 +3,36 @@
 # prof. Steven Ross
 #-------------------------------------------------
 
+# vetor
+x <- c(0.3, 0.9, 1.1)          
+y <- c("jose","maria","joao")          
+
+
+
+w <- c("0.2", "12.9", "45.1")          
+
+# data.frame
+funcionarios <- data.frame(nome = c("Marx", "Weber", "Durkheim","Arendt", "Maquiavel"),
+                           sexo = c("M", "M", "M", "F","M"),
+                           salario = c(1000, 1200, 1300, 2000, 500))
+funcionarios
+
+
+turma <- data.frame(nome_aluno = c("Jurgen Habermas", "Karl Popper", "John Rawls","Paulo Freire"),
+                    sexo = c("M", "M", "M","M"),
+                    CR = c(6.98, 7.01, 7.03, 8.88))
+turma
+
+funcionarios$nome
+turma$nome_aluno
+
+
+
+
+#--------------------------------------------------
+
 library(igraph)
 dev.off()
-
-#nomes <- c("Ciro" , "Eymael" , "Felipe" , "Jair" , "Léo" , "Luiz" , "P.K." , "Simone" , "Sofia" , "Vera")  
-#dados <- data.frame(from = sample(nomes, 50, TRUE),to = sample(nomes, 50, TRUE),weight = runif(50))
-#dados$weight <-ifelse(dados$from==dados$to,999999999999999,dados$weight)
-#dados <- dados[dados$weight<1000,]
-# save(dados,file = '/home/steven/Documentos/GitHub/minicurso_SNA/dados/dados_sna.RData')
 
 load('dados_sna.RData')
 
